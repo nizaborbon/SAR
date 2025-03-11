@@ -21,3 +21,7 @@ Funcionalidades
 
 Objetivo:
 Facilitar la divulgación del sistema de reciclaje, resaltando sus funcionalidades y beneficios para posibles clientes o usuarios interesados.
+
+-----------------
+Este proyecto está compuesto por archivos estáticos, por lo que no es necesario contar con un servidor o programas adicionales para verlo funcionar. Solo necesitas descargar el repositorio y abrir el archivo index.html en tu navegador preferido.
+-----------------
