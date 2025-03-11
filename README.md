@@ -16,5 +16,5 @@ Funcionalidades
 * Sección de características clave
 * Formulario de contacto
 
-Objetivo
+Objetivo:
 Facilitar la divulgación del sistema de reciclaje, resaltando sus funcionalidades y beneficios para posibles clientes o usuarios interesados.
