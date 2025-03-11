@@ -1,0 +1,1861 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+
+body, html{
+
+	font-family: 'Lato', sans-serif;
+
+	text-rendering: optimizeLegibility !important;
+
+	-webkit-font-smoothing: antialiased !important;
+
+	color: #5a5a5a;
+
+    height: 100%;
+
+    overflow-x: hidden;
+
+}
+
+
+
+h1{
+
+	text-transform: uppercase;
+
+    font-family: 'Russo One', sans-serif;
+
+    font-size: 66px;
+
+    /*line-height: 100px;*/
+
+}
+
+
+
+h2{
+
+	text-transform: uppercase;
+
+	line-height: 40px;
+
+    font-size: 40px;
+
+	margin:  0;
+
+}
+
+
+
+h3{
+
+    font-size: 20px;
+
+    font-weight: 900;
+
+}
+
+
+
+h4{
+
+	text-transform: uppercase;
+
+}
+
+
+
+h5{
+
+	text-transform: uppercase;
+
+	font-weight: 700;
+
+	line-height: 20px;
+
+}
+
+
+
+p{
+
+	font-family: 'Open Sans', sans-serif; 
+
+    font-size: 1.4em;
+
+    text-align: left;
+
+}
+
+
+
+a{ color: #fff;}
+
+a:hover,
+
+a:focus{
+
+	text-decoration: none;
+
+	color: #60B617;
+
+}
+
+
+
+.img-size{
+
+    width: 150px;
+
+    height: 150px;
+
+}
+
+
+
+.color-blue{
+
+	color: #1CA1FE;
+
+}
+
+
+
+.color-green{
+
+	color: #60B617;
+
+}
+
+
+
+.container-sar{
+
+    width: 1440px;
+
+}
+
+
+
+.title-hr-green{
+
+    border-color: #60B617;
+
+	border-width: 5px;
+
+	width: 80px;
+
+	float: left;
+
+	clear: both;
+
+}
+
+
+
+.title-hr-blue{
+
+    border-color: #1CA1FE;
+
+	border-width: 5px;
+
+	width: 80px;
+
+	float: left;
+
+	clear: both;
+
+}
+
+
+
+.img-right{
+
+    text-align: right;
+
+}
+
+
+
+.img-center{
+
+    text-align: center;
+
+}
+
+
+
+#sar-menu.navbar-default .navbar-nav > li > a.special-link{
+
+    font-size: 14px;
+
+    color: #84dbff;
+
+    font-weight: 700;
+
+    letter-spacing: normal;
+
+}
+
+
+
+
+
+
+
+/* MENU */
+
+
+
+#sar-menu {
+
+	padding: 0 !important;
+
+	transition: all 0.8s;
+
+}
+
+
+
+#sar-menu.navbar-default {
+
+	background-color: rgba(248, 248, 248, 0);
+
+	border-color: rgba(231, 231, 231, 0);
+
+    background-color: #222d32 !important;
+
+}
+
+
+
+#sar-menu a.navbar-brand {
+
+text-transform: uppercase;
+
+font-size: 22px;
+
+color: #fff;
+
+font-weight: 900;
+
+}
+
+
+
+#sar-menu h2{
+
+    font-size:40px;
+
+    color:#fff;
+
+    font-weight: 900;
+
+}
+
+
+
+#sar-menu.navbar-default .navbar-nav > li > a {
+
+	text-transform: uppercase;
+
+	color: #FFF;
+
+	font-size: 12px;
+
+	letter-spacing: 1px;
+
+}
+
+
+
+.on {
+
+	background-color: #222d32 !important;
+
+	padding: 0 !important;
+
+}
+
+
+
+/*#sar-menu.navbar-default .navbar-nav > li > a:hover , 
+
+#sar-menu.navbar-default .navbar-nav > li > a:focus , 
+
+#sar-menu.navbar-default .navbar-nav > li > a:active {
+
+	color: #60B617 !important;
+
+	background-color: transparent;
+
+	font-weight: 700;
+
+}*/
+
+
+
+.navbar-default .navbar-nav > .active > a, 
+
+.navbar-default .navbar-nav > .active > a:hover, 
+
+.navbar-default .navbar-nav > .active > a:focus {
+
+	color: #60B617 !important;
+
+	background-color: transparent;
+
+	font-weight: 700;
+
+}
+
+
+
+.navbar-toggle {
+
+	border-radius: 0;
+
+	}
+
+.navbar-default .navbar-toggle:hover, 
+
+.navbar-default .navbar-toggle:focus {
+
+	background-color: #60B617;
+
+	border-color: #60B617;
+
+	}
+
+.navbar-default .navbar-toggle:hover>.icon-bar {
+
+	background-color: #FFF;
+
+	}
+
+
+
+
+
+/*MENU MOVIL*/
+
+
+
+.navbar-toggle {
+
+    border-radius: 0;
+
+}
+
+
+
+.navbar-default .navbar-toggle:hover > .icon-bar {
+
+    background-color: #FFF;
+
+}
+
+
+
+#sidebar {
+
+    display: none;
+
+}
+
+
+
+#ul-nav {
+
+    position: fixed;
+
+    overflow-y: scroll;
+
+    top: 0;
+
+    bottom: 0;
+
+}
+
+
+
+.nav > li > a{
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+.nav > li > a.special-link{
+
+    font-size: 14px;
+
+    color: #84dbff;
+
+    font-weight: 700;
+
+    letter-spacing: normal;
+
+}
+
+
+
+.nav > li > a:hover, .nav > li > a:focus{
+
+    background-color: transparent;
+
+    font-weight: 700;
+
+}
+
+
+
+@media all and (max-width:425px) {
+
+    
+
+    #SAR{
+
+        position: absolute;
+
+        right: 0;
+
+    }
+
+    
+
+    #btn-toggle {
+
+        margin-left: 0.5em;
+
+        border: none;
+
+    }
+
+
+
+    .navbar-default .navbar-toggle .icon-bar {
+
+        background-color: #ffffff;
+
+    }
+
+
+
+    #btn-toggle:hover {
+
+        background-color: #151c1f;
+
+    }
+
+
+
+    #btn-toggle:focus {
+
+        background-color: #151c1f;
+
+    }
+
+    
+
+     #sidebar {
+
+        display: block;
+
+        height: 100%;
+
+        background-color: #151c1f;
+
+        padding-top: 0;
+
+        padding-left: 0; 
+
+    }
+
+
+
+    .row-offcanvas {
+
+        position: relative;
+
+        -webkit-transition: all 0.25s ease-out;
+
+        -moz-transition: all 0.25s ease-out;
+
+        transition: all 0.25s ease-out;
+
+    }
+
+
+
+    .row-offcanvas-right .sidebar-offcanvas {
+
+        right: -41.6%;
+
+    }
+
+
+
+    .row-offcanvas-left .sidebar-offcanvas {
+
+        left: -60.6%;
+
+    }
+
+
+
+    .row-offcanvas-right.active {
+
+        right: 41.6%;
+
+    }
+
+
+
+    .row-offcanvas-left.active {
+
+        left: 68%;
+
+    }
+
+
+
+    .sidebar-offcanvas {
+
+        position: absolute;
+
+        top: 0;
+
+        width: 60.6%;
+
+    }
+
+}
+
+
+@media (min-width:426px) and (max-width:767px){
+    
+     #SAR{
+
+        position: absolute;
+
+        right: 0;
+
+    }
+    
+    #ul-nav{
+        padding-left: 10px;
+    }
+
+    
+
+    #btn-toggle {
+
+        margin-left: 0.5em;
+
+        border: none;
+
+    }
+
+
+
+    .navbar-default .navbar-toggle .icon-bar {
+
+        background-color: #ffffff;
+
+    }
+
+
+
+    #btn-toggle:hover {
+
+        background-color: #151c1f;
+
+    }
+
+
+
+    #btn-toggle:focus {
+
+        background-color: #151c1f;
+
+    }
+
+    
+
+     #sidebar {
+
+        display: block;
+
+        height: 100%;
+
+        background-color: #151c1f;
+
+        padding-top: 0;
+
+        padding-left: 0; 
+
+    }
+
+
+
+    .row-offcanvas {
+
+        position: relative;
+
+        -webkit-transition: all 0.25s ease-out;
+
+        -moz-transition: all 0.25s ease-out;
+
+        transition: all 0.25s ease-out;
+
+    }
+
+
+
+    .row-offcanvas-right .sidebar-offcanvas {
+
+        right: -41.6%;
+
+    }
+
+
+
+    .row-offcanvas-left .sidebar-offcanvas {
+
+        left: -63.6%;
+
+    }
+
+
+
+    .row-offcanvas-right.active {
+
+        right: 41.6%;
+
+    }
+
+
+
+    .row-offcanvas-left.active {
+
+        left: 68%;
+
+    }
+
+
+
+    .sidebar-offcanvas {
+
+        position: absolute;
+
+        top: 0;
+
+        width: 63.6%;
+
+    }
+}
+
+
+
+
+
+/*INICIO*/
+
+#sar-inicio{
+
+	background: url(../img/img04.jpg);
+
+	background-size: cover;
+
+	background-position: center;
+
+	background-attachment: fixed;
+
+	background-repeat: no-repeat;
+
+	color: #cfcfcf;
+
+}
+
+
+
+#sar-inicio .overlay{
+
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 17%, rgba(0,0,0,0.4) 35%, rgba(0,0,0,0.4) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.4)), color-stop(17%,rgba(0,0,0,0.4)), color-stop(35%,rgba(0,0,0,0.4)), color-stop(62%,rgba(0,0,0,0.4)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 17%,rgba(0,0,0,0.4) 35%,rgba(0,0,0,0.4) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 17%,rgba(0,0,0,0.4) 35%,rgba(0,0,0,0.4) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 17%,rgba(0,0,0,0.4) 35%,rgba(0,0,0,0.4) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 17%,rgba(0,0,0,0.4) 35%,rgba(0,0,0,0.4) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+
+	height: 600px;    
+
+	background-attachment: fixed;
+
+}
+
+
+
+#sar-inicio p {
+
+    font-family: 'Montserrat', sans-serif;
+
+	color: rgb(180, 219, 247);
+
+    font-size: 2.6em;
+
+    text-align: center;
+
+}
+
+
+
+.content{
+
+	position: relative;
+
+	padding: 10% 0 0;
+
+}
+
+
+
+/*QUIENES SOMOS*/
+
+#sar-quienes-somos{
+
+	padding: 80px 0;
+
+    background-color: #ecf0f5;
+
+}
+
+
+
+#img-quienes-somos{
+
+    text-align: center;
+
+}
+
+
+
+#sar-quienes-somos p{
+
+    font-size: 1.7em;
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+/*MISION Y VISION*/
+
+#sar-mision-vision{
+
+	padding: 80px 0;
+
+    
+
+}
+
+
+
+/*BENEFICIOS*/
+
+
+
+#sar-beneficios{
+
+	background: url(../img/img02.jpg);
+
+	background-size: cover;
+
+	background-position: center;
+
+	background-attachment: fixed;
+
+	background-repeat: no-repeat;
+
+	color: #ffffff;
+
+}
+
+
+
+#sar-beneficios .overlay{
+
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+
+	height: auto;
+
+	background-attachment: fixed;
+
+	padding: 80px 0;
+
+}
+
+
+
+
+
+/*IMAGENES*/
+
+
+
+#sar-imagenes{
+
+    background: #ecf0f5;
+
+}
+
+
+
+#sar-imagenes .content{
+
+    position: relative;
+
+    padding: 4% 0 4%;
+
+}
+
+
+
+
+
+.img-radius {
+
+	width: 390px;
+
+	height: 250px;
+
+	border-radius: 4%;
+
+	transition: all 0.5s;
+
+}
+
+
+
+
+/*PREGUNTAS FRECUENTES*/
+
+
+
+#sar-preguntas-frecuentes{
+
+	padding: 80px 0;
+
+}
+
+
+
+#preguntas-parrafo-uno{
+
+    background: #ecf0f5;
+
+    border-radius: 30px;
+
+    height: 700px;
+
+}
+
+
+
+#preguntas-parrafo-dos{
+
+    background: #324a5e;
+
+    border-radius: 30px;
+
+    height: 700px;
+
+}
+
+
+
+#preguntas-parrafo-dos li,
+
+#preguntas-parrafo-dos p{
+
+    color: white;
+
+}
+
+
+
+/*CONTACTO*/
+
+
+
+#sar-contacto{
+
+	background: url(../img/img01.jpg);
+
+	background-size: cover;
+
+	background-position: center;
+
+	background-attachment: fixed;
+
+	background-repeat: no-repeat;
+
+}
+
+#sar-contacto .overlay{
+
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.73) 17%, rgba(255,255,255,0.66) 35%, rgba(255,255,255,0.55) 62%, rgba(255,255,255,0.4) 100%); /* FF3.6+ */
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(17%,rgba(255,255,255,0.73)), color-stop(35%,rgba(255,255,255,0.66)), color-stop(62%,rgba(255,255,255,0.55)), color-stop(100%,rgba(255,255,255,0.4))); /* Chrome,Safari4+ */
+
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* Chrome10+,Safari5.1+ */
+
+    background: -o-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* Opera 11.10+ */
+
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* IE10+ */
+
+    background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* W3C */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+
+	height: 500px;
+
+	background-attachment: fixed;
+
+	padding: 80px 0;
+
+}
+
+
+
+
+
+
+
+#sar-contacto p{
+
+    font-family: 'Abel', sans-serif;
+
+    font-size: 2em;
+
+    font-weight: 600;
+
+    
+
+}
+
+
+
+#div-contacto {
+
+    background: rgba(96, 182, 23, 0.32);
+
+    border-radius: 10px 70px 10px;
+
+    height: 230px;
+
+    border: #43840c 0.2em dashed;
+
+}
+
+
+
+
+/*RESPONSIVO*/
+
+
+
+
+
+/*Celulares pequeños*/
+
+
+
+@media all and (max-width:375px){
+
+    
+
+    h1{
+
+        font-size: 32px;
+
+        line-height: normal;
+
+    }
+
+    
+
+    h2 {
+
+        font-size: 30px;
+
+        line-height: normal;
+
+    }
+
+    
+
+    p {
+
+        font-size: 1.2em;
+
+    }
+
+    
+
+    /*INICIO*/
+
+    
+
+    .content{
+
+	   position: relative;
+
+	   padding: 30% 0 0;
+
+    }
+
+    
+
+    #sar-inicio p{
+
+        font-size: 1.6em;
+
+    }
+
+    
+
+    
+
+    /*QUIENES SOMOS*/
+
+    
+
+    #sar-quienes-somos p{
+
+        font-size: 1.3em;
+
+    }
+
+    
+
+    
+
+    /*MISION Y VISION*/
+
+    
+
+    #sar-mision-vision img{
+
+        height: 60px;
+
+    }
+
+    
+
+    
+
+    /*BENEFICIOS*/
+
+    
+
+    #sar-beneficios h2{
+
+        text-align: center;
+
+    }
+
+    
+
+    
+
+    #sar-beneficios .title-hr-green,
+
+    #sar-beneficios .title-hr-blue {
+
+        float: none;
+
+    }
+
+    
+
+    .img-beneficio-center{
+
+        text-align: center;
+
+        margin-top: -83px;
+
+    }
+
+    
+
+    #beneficio03{
+
+        text-align: right;
+
+        margin-top: -83px;
+
+    }
+
+    
+
+    #problema03{
+
+        text-align: left;
+
+        margin-top: -83px;
+
+    }
+
+    
+
+    
+
+    .div-top{
+
+        margin-top: -31px;
+
+    }
+
+    
+
+    
+
+    /*IMAGENES*/
+
+    
+
+    .img-radius{
+
+        width: 200px;
+
+        height: 120px;
+
+        margin-top: 10px;
+
+    }
+
+	.img-radius2{
+        width: 300px;
+        height: 87px;
+        margin-top: 10px;
+    }    
+
+    
+
+    /*PREGUNTAS FRECUENTES*/
+
+    
+
+    .div-top-preguntas{
+
+        margin-top: 10px;
+
+    }
+
+    
+
+    #preguntas-parrafo-uno {
+
+        border-radius: 0px;
+
+        height: auto;
+
+    }
+
+
+
+    #preguntas-parrafo-dos {
+
+        border-radius: 0px;
+
+        height: auto;
+
+    }
+
+    
+
+    
+
+    /*CONTACTO*/
+
+    
+
+    #sar-contacto .overlay{
+
+        height: auto;
+
+    }
+
+    
+
+    #sar-contacto p{
+
+        font-size: 1.5em;
+
+    }
+
+
+
+    #div-contacto {
+
+        height: 400px;;
+
+    }
+
+
+
+    
+
+}
+
+
+
+
+
+/*Celulares grandes*/
+
+
+
+@media (min-width:425px) and (max-width:767px) {
+
+    
+
+    h1{
+
+        font-size: 40px;
+
+        line-height: normal;
+
+    }
+
+    
+
+     h2 {
+
+        font-size: 35px;
+
+        line-height: normal;
+
+    }
+
+    
+
+    p{
+
+        font-size: 1.3em;
+
+    }
+
+    
+
+    
+
+    /*INICIO*/
+
+    
+
+    .content{
+
+	   position: relative;
+
+	   padding: 30% 0 0;
+
+    }
+
+    
+
+    #sar-inicio p{
+
+       font-size: 1.6em;
+
+    }
+
+    
+
+    
+
+    /*QUIENES SOMOS*/
+
+    
+
+    #sar-quienes-somos p{
+
+        font-size: 1.5em;
+
+    }
+
+    
+
+    
+
+    /*MISION Y VISION*/
+
+    
+
+    #sar-mision-vision img{
+
+        height: 80px;
+
+    }
+
+    
+
+    
+
+    /*BENEFICIOS*/
+
+    
+
+    #sar-beneficios h2{
+
+        text-align: center;
+
+    }
+
+    
+
+    
+
+    #sar-beneficios .title-hr-green,
+
+    #sar-beneficios .title-hr-blue {
+
+        float: none;
+
+    }
+
+    
+
+    .img-beneficio-center{
+
+        text-align: center;
+
+        margin-top: -83px;
+
+    }
+
+    
+
+    #beneficio03{
+
+        text-align: right;
+
+        margin-top: -83px;
+
+    }
+
+    
+
+    #problema03{
+
+        text-align: left;
+
+        margin-top: -83px;
+
+    }
+
+    
+
+    
+
+    .div-top{
+
+        margin-top: -31px;
+
+    }
+
+    
+
+    
+
+    /*IMAGENES*/
+
+    
+
+     .img-radius{
+
+        width: 250px;
+
+        height: 180px;
+
+        margin-top: 10px;
+
+    }
+	.img-radius2{
+        width: 375px;
+        height: 109px;
+        margin-top: 10px;
+    }
+    
+
+    /*PREGUNTAS FRECUENTES*/
+
+    
+
+    .div-top-preguntas{
+
+        margin-top: 10px;
+
+    }
+
+    
+
+     #preguntas-parrafo-uno {
+
+        border-radius: 0px;
+
+        height: auto;
+
+    }
+
+
+
+    #preguntas-parrafo-dos {
+
+        border-radius: 0px;
+
+        height: auto;
+
+    }
+
+    
+
+    
+
+    /*CONTACTO*/
+
+    
+
+    #sar-contacto .overlay{
+
+        height: auto;
+
+    }
+
+    
+
+    #sar-contacto p{
+
+        font-size: 1.8em;
+
+    }
+
+
+
+    #div-contacto {
+
+        height: 420px;;
+
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+/*Tablets*/
+
+
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    
+
+     h1{
+
+        font-size: 45px;
+
+        line-height: normal;
+
+    }
+
+    
+
+    
+
+    /*MENU*/
+
+    
+
+    #sar-menu.navbar-default .navbar-nav > li > a{
+
+        font-size: 11px;
+
+    }
+
+    
+
+    
+
+    /*INICIO*/
+
+    
+
+    .content{
+
+	   position: relative;
+
+	   padding: 23% 0 0;
+
+    }
+
+    
+
+    #sar-inicio p{
+
+       font-size: 2.3em;
+
+    }
+
+    
+
+    
+
+    /*QUIENES SOMOS*/
+
+    
+
+     #sar-quienes-somos p{
+
+        font-size: 1.8em;
+
+    }
+
+    
+
+    /*IMAGENES*/
+
+    
+
+    .img-radius{
+
+        width: 230px;
+
+        height: 190px;
+
+        margin-top: 10px;
+
+    }
+
+    .img-radius2{
+        width: 345px;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    /*PREGUNTAS FRECUENTES*/
+
+    
+
+    #preguntas-parrafo-dos{
+
+        height: 760px;
+
+    }
+
+    
+
+    
+
+    /*CONTACTO*/
+
+    
+
+     #sar-contacto p{
+
+        font-size: 1.7em;
+
+    }
+
+
+
+    #div-contacto {
+
+        height: 225px;;
+
+    }
+
+}
+
+
+
+
+
+
+
+/*Laptops*/
+
+
+
+@media (min-width:1024px) and (max-width:1439px){
+
+    
+
+    h1 {
+
+        font-size: 58px;
+
+    }
+
+    
+
+   
+
+    /*INICIO*/
+
+    .content{
+
+	   position: relative;
+
+	   padding: 12% 0 0;
+
+    }
+
+    
+
+    
+
+    /*IMAGENES*/
+
+    
+
+    .img-radius{
+
+        width: 320px;
+
+        height: 240px;
+
+    }
+
+ 	.img-radius2{
+        width: 480px;
+        height: 140px;
+    }     
+
+    
+
+    /*PREGUNTAS FRECUENTES*/
+
+    
+
+    #preguntas-parrafo-uno{
+
+        height: 950px;
+
+    }
+
+    
+
+    
+
+    #preguntas-parrafo-dos{
+
+        height: 950px;
+
+    }
+
+}
+
+
+
+
+
+/*Pantallas grandes*/
+
+
+
+@media (min-width:1440px) and (max-width:2560px){
+
+    
+
+    /*PREGUNTAS FRECUENTES*/
+
+    
+
+    #sar-preguntas-frecuentes .container{
+
+        width: 1450px;
+
+    }
+
+    
+
+    
+
+}
+
+
+
+
+
+
+
+/*Efecto Blink*/
+
+
+
+.blink-text {
+
+  
+
+  animation-name: blinkeo;
+
+  animation-duration: 1s;
+
+  animation-timing-function: linear;
+
+  animation-iteration-count: infinite;
+
+
+
+  -webkit-animation-name:blinkeo;
+
+  -webkit-animation-duration: 1s;
+
+  -webkit-animation-timing-function: linear;
+
+  -webkit-animation-iteration-count: infinite;
+
+}
+
+
+
+@-moz-keyframes blinkeo{  
+
+  0% { opacity: 1.0; }
+
+  50% { opacity: 0.0; }
+
+  100% { opacity: 1.0; }
+
+}
+
+
+
+@-webkit-keyframes blinkeo {  
+
+  0% { opacity: 1.0; }
+
+  50% { opacity: 0.0; }
+
+  100% { opacity: 1.0; }
+
+}
+
+
+
+@keyframes blinkeo {  
+
+  0% { opacity: 1.0; }
+
+  50% { opacity: 0.0; }
+
+  100% { opacity: 1.0; }
+
+}
+
+
+
+/*CONOCE NUESTRO SISTEMA*/
+
+#sar-conoce{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.icono{
+    font-size: 30px !important;
+    color: #60a928;
+}
+
+@media all and (max-width: 425px) {
+    
+    #sar-conoce{
+        margin-bottom: 20%;
+    }
+    
+    #software{
+        height: 150px;
+    }
+    
+    .icono{
+        font-size: 10px !important;
+    
+    }
+}
+
+@media (max-width:768px) and (min-width:426px){
+    #sar-conoce{
+        margin-bottom: 15%;
+    }
+    
+    #software{
+        height: 200px;
+    }
+    
+    .icono{
+        font-size: 20px !important;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
