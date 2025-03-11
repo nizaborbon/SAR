@@ -9,6 +9,8 @@ El diseño fue ajustado al gusto de los desarrolladores y aprobado por ellos, as
 Tecnologías utilizadas
 * HTML5
 * CSS3
+* SCSS
+* LESS
 * Bootstrap
 * Javascript
 
