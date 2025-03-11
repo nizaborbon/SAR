@@ -10,6 +10,7 @@ Tecnologías utilizadas
 * HTML5
 * CSS3
 * Bootstrap
+* Javascript
 
 Funcionalidades
 * Página de inicio con información general del sistema
